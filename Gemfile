@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.3.5'
-gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
+gem "paperclip", "~> 4.3"
 group :development, :test do # <<<< :development, not devlopment
   gem 'sqlite3'
 end
 group :production do
   gem 'pg'
-end
-# Use SCSS for stylesheets
+end# Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -50,13 +50,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-# group :development do
-#   gem 'rspec-rails', '2.5.0'
-# end
-#
-# group :test do
-#   gem 'rspec', '2.5.0'
-#   gem 'spork', '0.9.0.rc5'
-#   gem 'webrat', '0.7.1'
-#
-# end
