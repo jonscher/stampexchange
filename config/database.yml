@@ -2,23 +2,22 @@ development:
   adapter: postgresql
   encoding: utf8
   database: project_development
-  pool: 5
-  username:
-  password:
+  host : localhost
+  username: exemple
+  password: exemple
 
 test: &TEST
   adapter: postgresql
   encoding: utf8
   database: project_test
-  pool: 5
-  username:
-  password:
+  host : localhost
+  username: exemple
+  password: exemple
 
 production:
   adapter: postgresql
   encoding: utf8
   database: project_production
-  pool: 5
   username:
   password:
 
