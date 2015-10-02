@@ -1,12 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Listings</h1>
+<div class="jumbotron">
+  <div class="container">
+  <h1 style="text-align:center;">Hello, world!</h1>
+  <p style="text-align:center;">...</p>
+  <p style="text-align:center;"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+</div>
+
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Destription</th>
+      <th>Description</th>
       <th>Price</th>
       <th colspan="3"></th>
     </tr>
@@ -17,7 +24,7 @@
       <tr>
         <td><%= image_tag listing.image.url(:medium) %></td>
         <td><%= listing.name %></td>
-        <td><%= listing.destription %></td>
+        <td><%= listing.description %></td>
         <td><%= listing.price %></td>
         <td><%= link_to 'Show', listing, class:"btn btn-link" %></td>
         <td><%= link_to 'Edit', edit_listing_path(listing), class:"btn btn-link" %></td>
