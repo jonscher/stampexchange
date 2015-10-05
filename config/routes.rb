@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'pages/about'
 
   get 'pages/home'
-
+  get 'seller' => "listings#seller"
   get 'pages/contact'
   get 'pages/about'
 

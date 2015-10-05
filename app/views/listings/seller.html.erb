@@ -1,0 +1,34 @@
+<div class="panel panel-default">
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th class="center">Image</th>
+      <th class="center">Name</th>
+      <th class="center">Description</th>
+      <th class="center">Price</th>
+      <th colspan="3"></th>
+    </tr>
+
+
+  <% @listings.each do |listing| %>
+<tr>
+  <td><%= image_tag listing.image.url(:medium) %></td>
+  <td><%= listing.name %></td>
+  <td><%= listing.description %></td>
+  <td><%= listing.price %></td>
+  <td>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Action
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+     <li><%= link_to 'Edit', edit_listing_path(listing), class:"btn btn-link" %></li>
+      <li> <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-link" %></li>
+      <li> <%= link_to 'Show', listing, class:"btn btn-link" %></li>
+    </ul>
+  </div>
+  </td>
+</tr>
+<%end%>
+</table>
+</div>

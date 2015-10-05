@@ -13,9 +13,19 @@
 <body>
 
 <%= render '/layouts/header'%>
+
 <div class="container">
 
-<%= yield %>
+  <%flash.each do |name, msg|%>
+      <%if msg.is_a?(String)%>
+  <div class="alert alert-warning alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<%=content_tag :div, msg, :id =>"flash_#{}name}" %>
+  </div>
+    <%end%>
+  <%end%>
+
+  <%= yield %>
 </div>
   <%= debug(params) if Rails.env.development? %>
 
