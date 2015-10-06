@@ -11,10 +11,8 @@
 // about supported directives.
 //= require jquery_ujs
 //= require bootstrap
-<% if  Rails.env.production?%>
 //= require bootstrap/modal
 //= require bootstrap/dropdown
-<%end%>
 //= require bootstrap/alert
 // = require_tree .
 
