@@ -19,8 +19,8 @@
           <a href="<%= listing_path(listing) %>">
 
           <div class="thumbnail">
+            <img src="<%= listing.image.url(:medium) %>" >
 
-           <% listing.image.url(:medium) %>
             <div class="caption">
 
                 <h3><%= listing.name %></h3>
