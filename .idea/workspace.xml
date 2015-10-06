@@ -103,8 +103,8 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.402174">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56884056">
+              <caret line="46" column="13" selection-start-line="36" selection-start-column="7" selection-end-line="46" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -214,8 +214,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="110" />
+    <option name="x" value="44" />
+    <option name="y" value="111" />
     <option name="width" value="1335" />
     <option name="height" value="602" />
   </component>
@@ -707,7 +707,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="110" width="1335" height="602" extended-state="0" />
+    <frame x="44" y="111" width="1335" height="602" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784185" sideWeight="0.4886467" order="7" side_tool="false" content_ui="tabs" />
@@ -1148,8 +1148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.402174">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56884056">
+          <caret line="46" column="13" selection-start-line="36" selection-start-column="7" selection-end-line="46" selection-end-column="13" />
           <folding />
         </state>
       </provider>
