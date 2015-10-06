@@ -1,9 +1,12 @@
+<%# encoding: utf-8 %>
+
 <p id="notice"><%= notice %></p>
 
 <div class="jumbotron">
   <div class="container">
-  <h1 style="text-align:center;">Hello, world!</h1>
-  <p style="text-align:center;">...</p>
+
+  <h1 style="text-align:center;">Vendez et Achetez vos timbres</h1>
+  <p style="text-align:center;">en tout simplicité</p>
   <p style="text-align:center;"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 </div>
 </div>
@@ -23,7 +26,6 @@
       <p> <%= number_to_currency(listing.price )%></p>
       <p> <%= "sold by #{listing.user.name}" %></p>
   <%= link_to 'Show', listing, class:"btn btn-link" %>
-  <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-link" %></li> |
 
     </div>
   </div>
