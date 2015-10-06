@@ -18,6 +18,8 @@
         <div class="col-md-3">
 
           <div class="thumbnail">
+            <a href="<%= listing_path(listing) %>" target="_blank">
+
             <%= link_to image_tag(listing.image.url(:medium)), listing_path(listing) %>
 
             <div class="caption">
@@ -28,6 +30,7 @@
                 <p> <%= "sold by #{listing.user.name}" %></p>
 
             </div>
+                </a>
           </div>
         </div>
       <%end%>
