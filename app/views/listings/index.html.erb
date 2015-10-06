@@ -16,7 +16,7 @@
       <% @listings.each do |listing| %>
 
         <div class="col-md-3">
-          <a href="<%= listing_path(listing) %>">
+          <a class="index-listing" href="<%= listing_path(listing) %>">
 
           <div class="thumbnail">
             <img src="<%= listing.image.url(:medium) %>" >
