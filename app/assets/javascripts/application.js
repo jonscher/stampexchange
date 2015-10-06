@@ -9,7 +9,9 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//= require jquery_ujs
 //= require bootstrap
+//= require bootstrap/modal
+//= require bootstrap/dropdown
+//= require jquery_ujs
 // = require_tree .
 
