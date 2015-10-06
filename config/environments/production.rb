@@ -87,7 +87,7 @@ Rails.application.configure do
       address: "smtp-mail.outlook.com",
       port: "587",
       enable_starttls_auto: true,
-      user_name: stampexchange@outlook.fr,
-      password: scherjon1
+      user_name: "stampexchange@outlook.fr",
+      password: "scherjon1"
   }
 end
