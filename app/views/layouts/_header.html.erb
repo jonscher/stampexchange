@@ -3,22 +3,18 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-
       <a href="/listings">
         <img src="/image/StampExchange.png" width="190" height="50">
       </a>
     </div>
-
-
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><%= link_to "About", pages_about_path%></li>
         <li><%= link_to "Contact", pages_contact_path%></li>
+      </ul>
 
-
-        </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if !user_signed_in?%>
 
@@ -27,23 +23,20 @@
             <li><%= link_to "S'inscrire", new_user_registration_path%></li>
         <%end%>
 
-    <% if user_signed_in? %>
+        <% if user_signed_in? %>
 
-      <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.name%><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "Mes articles", seller_path%></li>
-            <li><%= link_to "Modifier mon profil", edit_user_registration_path%></li>
-            <li><%= link_to "Se deconnecter", destroy_user_session_path, method: :delete%></li>
-            <%end%>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.name%><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Mes articles", seller_path%></li>
+                <li><%= link_to "Modifier mon profil", edit_user_registration_path%></li>
+                <li><%= link_to "Se deconnecter", destroy_user_session_path, method: :delete%></li>
+                <%end%>
 
-        </ul>
-      </ul>
-
-  </div>
-     </div>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+            </ul>
+          </ul>
+        </div>
+      </div>
 </nav>
 
 
