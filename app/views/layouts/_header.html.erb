@@ -13,6 +13,17 @@
       <ul class="nav navbar-nav">
         <li><%= link_to "About", pages_about_path%></li>
         <li><%= link_to "Contact", pages_contact_path%></li>
+
+
+        <div class="dropdown">
+          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown trigger
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            ...
+          </ul>
+        </div>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -34,17 +45,7 @@
                 <%end%>
 
             </ul>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle-index2" data-toggle="dropdown" role="button" aria-expanded="false">Bonjour <%= current_user.name %>
-            <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li>ddddd</li>
-            <li>ddddd</li>
-            <li>ddddd</li>
 
-            <li class="divider"></li>
-          </ul>
-        </li>
           </ul>
         </div>
       </div>
