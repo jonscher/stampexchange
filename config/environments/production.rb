@@ -79,4 +79,15 @@ Rails.application.configure do
 
   #  Change Localhost by the url
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+      address: "smtp-mail.outlook.com",
+      port: "587",
+      enable_starttls_auto: true,
+      user_name: stampexchange@outlook.fr,
+      password: scherjon1
+  }
 end
