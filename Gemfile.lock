@@ -164,6 +164,7 @@ GEM
     tilt (2.0.1)
     turbolinks (2.5.3)
       coffee-rails
+    twitter-bootstrap-rails-confirm (1.0.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     tzinfo-data (1.2015.7)
@@ -195,10 +196,10 @@ DEPENDENCIES
   pg
   rails (= 4.2.4)
   rails_12factor
-  rake
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   turbolinks
+  twitter-bootstrap-rails-confirm
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
