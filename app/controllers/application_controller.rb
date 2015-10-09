@@ -11,5 +11,10 @@ class ApplicationController < ActionController::Base
       devise_parameter_sanitizer.for(:account_update) << :name
 
     end
-  end
+
+    def disable_nav
+      @disable_nav = true
+    end
+
+end
 
