@@ -1,5 +1,5 @@
 
-  <%= link_to 'Register', new_user_session_path, :remote => true, 'data-toggle' => "modal", 'data-target' => "#modal-1", :method => 'get' %>
+  <%= link_to 'Se connecter', new_user_session_path, :remote => true, 'data-toggle' => "modal", 'data-target' => "#modal-1", :method => 'get' %>
 
 
 
@@ -11,7 +11,7 @@
           <h4 class="modal-title">Connection</h4>
         </div>
         <div class="modal-body">
-      <h2>Log in</h2>
+      <h2>Se connecter</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="form-group">
