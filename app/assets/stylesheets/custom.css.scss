@@ -40,6 +40,10 @@ body {
   height: 550px;
 }
 
+.modal {
+  z-index: 110;
+
+}
 #hero {
   position: absolute;
   right: 0;
