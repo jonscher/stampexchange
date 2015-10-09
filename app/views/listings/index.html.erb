@@ -6,13 +6,20 @@
     <div id="catch-header">
       <div id="join-us">
   <h1 style="text-align:center;">Vendez et Achetez vos timbres</h1>
-      <h2 style="text-align:center;">en toute simplicité</h2>
-  </div>
+      <h2 style="text-align:center;">en toute simplicité</h2><br>
+
+        <a href="/listings#listings">
+        <button class="btn btn-primary", style= "width:150px;font-size:18px;font-weight: bold ;">Acheter</button>
+        </a>
+        <a href="/listings/new">
+        <button class="btn btn-primary", style= "width:150px;font-size:18px;font-weight: bold">Vendre</button>
+        </a>
+      </div>
 </div>
   </div>
 </div>
 <br>
-<div class="container">
+<div class="container" id ="listings">
 <div class="center">
     <div class="row">
       <% @listings.each do |listing| %>
