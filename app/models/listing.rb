@@ -9,6 +9,7 @@ else
       :path => ":style/:id_:filename"
 end
 
+  validates_attachment_size :image, :less_than => 2.megabytes
   validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
   validates :name, :price, :description, presence: true
   validates :price, numericality: {greater_than:0}
