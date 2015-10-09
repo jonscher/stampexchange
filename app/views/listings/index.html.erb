@@ -2,15 +2,19 @@
 
 <p id="notice"><%= notice %></p>
 
-<div class="jumbotron">
-    <div class="container">
+<div id="hero-wrapper">
+  <div id="hero">
 
-      <h1 style="text-align:center;">Vendez et Achetez vos timbres</h1>
+    <div id="catch-header">
+      <div id="join-us">
+  <h1 style="text-align:center;">Vendez et Achetez vos timbres</h1>
       <h2 style="text-align:center;">en tout simplicité</h2>
-      <p style="text-align:center;"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
+  </div>
 </div>
-
+  </div>
+</div>
+<br>
+<div class="container">
 <div class="center">
     <div class="row">
       <% @listings.each do |listing| %>
@@ -42,3 +46,4 @@
 <% if user_signed_in?%>
 <%= link_to 'New Listing', new_listing_path, class:"btn btn-link" %>
 <%end%>
+</div>
