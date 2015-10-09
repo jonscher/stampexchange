@@ -18,11 +18,30 @@ body {
 }
 
 
+.navbar .nav > li > a {
+  float: none;
+  text-shadow: 0 0 20px black, 0 0 5px black;
+  font-size: 17px;
+  font-weight: bold;
+  color:  white;
+}
 
 #hero-wrapper {
   margin-top: -20px;
   position: relative;
   height: 550px;
+}
+
+.figTop {
+  display:inline-block;
+  opacity:1;
+
+}
+.no-touch .ca-item-main figure:hover figcaption, .ca-item-main figure.cs-hover figcaption   {
+  opacity:1;
+}
+.ca-item-main figcaption {
+  background: rgba(39, 48, 66, 0.6);
 }
 
 #hero {
