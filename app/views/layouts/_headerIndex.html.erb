@@ -14,18 +14,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+
         <li><%= link_to "A propos", pages_about_path%></li>
         <li><%= link_to "Contact", pages_contact_path%></li>
       </ul>
-
 
       <ul class="nav navbar-nav navbar-right">
         <% if !user_signed_in?%>
 
             <li><%= link_to 'Se connecter', new_user_session_path, :remote => true, 'data-toggle' => "modal", 'data-target' => "#modal-1", :method => 'get' %></li>
 
-
             <li><%= link_to "S'inscrire", new_user_registration_path%></li>
+
         <%end%>
 
         <% if user_signed_in? %>
@@ -42,10 +42,8 @@
 
           </ul>
         </div>
-
-    </div>
-
       </div>
+  </div>
 </nav>
 
 
