@@ -12,5 +12,6 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require bootstrap/modal
+//= require bootstrap/dropdown
 //= require twitter/bootstrap/rails/confirm
 // = require_tree .
