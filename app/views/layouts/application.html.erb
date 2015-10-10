@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <% if request.url() == root_url %>
+    <% if current_page?('/') %>
 
 
       <%= render "layouts/headerIndex" %>
