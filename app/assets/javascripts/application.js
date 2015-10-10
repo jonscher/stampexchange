@@ -12,5 +12,4 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require twitter/bootstrap/rails/confirm
-<% %>
 // = require_tree .
