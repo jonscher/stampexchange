@@ -29,6 +29,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.name%><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><%= link_to "Mes articles", seller_path%></li>
+                <li><%= link_to "Vendre un article", new_listing_path%></li>
                 <li><%= link_to "Modifier mon profil", edit_user_registration_path%></li>
                 <li><%= link_to "Se deconnecter", destroy_user_session_path, method: :delete%></li>
                 <%end%>
