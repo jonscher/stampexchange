@@ -54,3 +54,15 @@ body {
     font-size: 60px;
     font-weight: bold}
 }
+
+.navbar-my {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  z-index: 100;
+}
+div.modal div.modal-backdrop {
+  z-index: 150;
+}

@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :listings
+
+  root 'listings#index'
   get 'pages/about'
 
   get 'pages/home'
@@ -10,7 +12,6 @@ Rails.application.routes.draw do
   get 'pages/about'
 
   get 'session/new'
-  root 'listings#index'
 #  resources :sessions, :only => [:new, :create, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.

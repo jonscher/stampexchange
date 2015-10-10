@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
   <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" %>
 
@@ -13,9 +12,14 @@
 
 </head>
 <body>
+    <% if request.url() == root_url %>
 
+
+      <%= render "layouts/headerIndex" %>
+    <%else%>
     <%= render "layouts/header" %>
 
+<%end%>
       <%flash.each do |name, msg|%>
           <%if msg.is_a?(String)%>
               <div class="alert alert-warning alert-dismissible" role="alert">
