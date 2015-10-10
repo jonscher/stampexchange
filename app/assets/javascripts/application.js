@@ -11,5 +11,6 @@
 // about supported directives.
 //= require jquery_ujs
 //= require bootstrap
+//= require bootstrap/modal
 //= require twitter/bootstrap/rails/confirm
 // = require_tree .
