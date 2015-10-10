@@ -22,7 +22,7 @@
       <ul class="nav navbar-nav navbar-right">
         <% if !user_signed_in?%>
 
-            <li> <%= render 'devise/sessions/new' %></li>
+            <li><%= link_to 'Se connecter', new_user_session_path, :remote => true, 'data-toggle' => "modal", 'data-target' => "#modal-1", :method => 'get' %></li>
 
 
             <li><%= link_to "S'inscrire", new_user_registration_path%></li>
@@ -39,9 +39,12 @@
                 <li><%= link_to "Se deconnecter", destroy_user_session_path, method: :delete%></li>
                 <%end%>
             </ul>
+
           </ul>
         </div>
+
     </div>
+
       </div>
 </nav>
 
