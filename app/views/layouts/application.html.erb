@@ -14,12 +14,11 @@
 <body>
     <% if current_page?('/') %>
 
-
-      <%= render "layouts/headerIndex" %>
+        <%= render "layouts/headerIndex" %>
     <%else%>
-    <%= render "layouts/header" %>
+        <%= render "layouts/header" %>
 
-<%end%>
+    <%end%>
       <%flash.each do |name, msg|%>
           <%if msg.is_a?(String)%>
               <div class="alert alert-warning alert-dismissible" role="alert">
