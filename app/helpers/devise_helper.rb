@@ -8,13 +8,15 @@ module DeviseHelper
 
     html = <<-HTML
 <div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>      <h2>#{sentence}</h2>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <h2>#{sentence}</h2>
       <ul>#{messages}</ul>
     </div>
     HTML
 
     html.html_safe
   end
+
 
   def devise_error_messages?
     resource.errors.empty? ? false : true

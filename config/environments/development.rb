@@ -7,6 +7,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  Encoding.default_external = Encoding::UTF_8
+  Encoding.default_internal = Encoding::UTF_8
+  config.i18n.default_locale = :fr
   # Do not eager load code on boot.
   config.eager_load = false
 
