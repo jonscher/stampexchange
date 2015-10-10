@@ -1,5 +1,8 @@
-
-<h2>Mot de passe oublié?</h2>
+<%# encoding: utf-8 %>
+<div class="container">
+  <div class="col-md-6 ">
+<h2>Mot de passe oubliÃ©?</h2>
+    <br>
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
@@ -8,10 +11,10 @@
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true , class: "form-control"%>
   </div>
-
+<br>
   <div class="form-group">
-    <%= f.submit "Envoyez moi les instructions de réinitialisation du mot de passe", class: "btn btn-primary"%>
+    <%= f.submit "Envoyez moi les instructions de rÃ©initialisation de mon mot de passe", class: "btn btn-primary"%>
   </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+</div></div>
