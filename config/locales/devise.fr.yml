@@ -6,12 +6,9 @@
 fr:
   errors:
     messages:
+      not_found: "n'a pas été trouvé(e)"
       already_confirmed: "a déjà été confirmé(e)"
       not_locked: "n'était pas verrouillé(e)"
-      not_found: "n'a pas été trouvé(e)"
-      not_saved:
-        one: "1 erreur :"
-        other: "%{count} erreurs :"
 
   devise:
     failure:
@@ -89,6 +86,9 @@ fr:
         change_my_password: "Changer mon mot de passe"
       new:
         send_me_reset_password_instructions: "Envoyez-moi un courriel pour changer mon mot de passe"
+      user:
+        send_instructions: 'Un email de réinitialisation du mot de passe vous a été envoyé'
+
     registrations:
       edit:
         edit: "Modifier"
@@ -103,4 +103,4 @@ fr:
         back: "Retour"
     unlocks:
       new:
-        resend_unlock_instructions: "Renvoyez le mail pour déverrouiller mon compte"
+        resend_unlock_instructions: "Renvoyez le mail pour déverrouiller mon compte"          
