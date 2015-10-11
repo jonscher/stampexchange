@@ -104,10 +104,3 @@ fr:
     unlocks:
       new:
         resend_unlock_instructions: "Renvoyez le mail pour déverrouiller mon compte"
-  activemodel:
-      errors:
-        template:
-          header:
-            one:   "1 fout voorkwam dat dit %{model} kon bewaard worden"
-            other: "%{count} fouten voorkwamen dat deze %{model} kon bewaard worden"
-          body:    "Er waren problemen met de volgende velden:"

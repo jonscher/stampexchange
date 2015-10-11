@@ -8801,7 +8801,12 @@ body {
   height: 550px;
 }
 
-/* line 36, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+/* line 34, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+#error_explanation h2 {
+  display: none;
+}
+
+/* line 38, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
 #hero {
   position: absolute;
   right: 0;
@@ -8809,10 +8814,10 @@ body {
   top: 0;
   bottom: 0;
   overflow: hidden;
-  background-image: url("https://www.dropbox.com/s/02nkpisniet3slu/jumbotron.png?dl=1");
+  background-image: url("https://www.dropbox.com/s/8f8l6dzlsfm852j/rect3037-ConvertImage.jpg?dl=1");
 }
 
-/* line 46, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+/* line 48, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
 #catch-header {
   padding-top: 13%;
   color: white;
@@ -8821,25 +8826,29 @@ body {
   opacity: 0.95;
   border-radius: 5px;
 }
-/* line 53, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+/* line 55, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
 #catch-header h1, #catch-header h2 {
   text-shadow: 0 0 20px black, 0 0 5px black;
   font-size: 60px;
   font-weight: bold;
 }
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
 
+/* line 60, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+.navbar-my {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  z-index: 100;
+}
 
- */
+/* line 68, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+.navbar-all {
+  background-image: url("https://www.dropbox.com/s/fx7f0blgt2vi2s3/navbar.jpg?dl=1");
+}
 
+/* line 72, C:/Users/jonathan/RubymineProjects/untitled4/app/assets/stylesheets/custom.css.scss */
+div.modal div.modal-backdrop {
+  z-index: 150;
+}
