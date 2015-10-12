@@ -14,12 +14,6 @@ Devise.setup do |config|
   # with default "from" parameter.
   config.mailer_sender = 'stampexchange75@gmail.com'
 
-  def confirmation_instructions(record, token, opts={})
-    headers["Custom-header"] = "Bar"
-    opts[:from] = 'stampexchange75@gmail.com'
-    opts[:reply_to] = 'stampexchange75@gmail.com'
-    super
-  end
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
 

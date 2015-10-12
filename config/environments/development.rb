@@ -15,7 +15,7 @@ Rails.application.configure do
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
-  config.action_controller.perform_caching = false
+  config.action_controller.perform_caching = true
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
@@ -44,22 +44,20 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
 
-  
-
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
-      address: "smtp-mail.outlook.com",
+      address: "smtp.gmail.com",
       port: "587",
+      domain: "gmail.com",
+      authentication: "plain",
       enable_starttls_auto: true,
-      user_name: "stampexchange@outlook.fr",
-      password: "scherjon1"
+      user_name: "stampexchange75@gmail.com",
+      password: "stampexchange2075"
+
+
   }
 end
