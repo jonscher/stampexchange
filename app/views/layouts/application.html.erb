@@ -12,6 +12,7 @@
 
 </head>
 <body>
+<div class="body">
     <% if current_page?('/') %>
 
         <%= render "layouts/headerIndex" %>
@@ -38,6 +39,7 @@
     <%= debug(params) if Rails.env.development? %>
     <li> <%= render '/layouts/modal' %></li>
     </div>
+</div>
 
     <%= render '/layouts/footer'%>
 

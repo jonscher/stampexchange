@@ -13,6 +13,19 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+
+gem "rspec-rails", :group => [:test, :development]
+group :test do
+  gem "factory_girl_rails"
+  gem "capybara"
+  gem 'spork'
+  gem "guard-rspec"
+end
+gem 'rb-fsevent'
+
+gem 'autotest'
+gem 'autotest-rails-pure'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'

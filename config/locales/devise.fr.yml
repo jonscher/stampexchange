@@ -26,15 +26,15 @@ fr:
       signed_in: "Connecté."
       signed_out: "Déconnecté."
     passwords:
-      send_instructions: "Vous allez recevoir un courriel contenant des instructions pour changer votre mot de passe."
+      send_instructions: "Vous allez recevoir un email contenant des instructions pour changer votre mot de passe."
       updated: "Votre mot de passe a été changé. Vous êtes maintenant connecté."
     confirmations:
-      send_instructions: "Vous allez recevoir un courriel contenant des instructions pour activer votre compte."
+      send_instructions: "Vous allez recevoir un email contenant des instructions pour activer votre compte."
       confirmed: "Votre compte a été activé. Vous êtes maintenant connecté."
     registrations:
-      signed_up: "Votre inscription est enregistrée. Si demandé, un courriel de confirmation vous a été envoyé."
-      updated: "Votre mise à jour a été prise en compte."
-      destroyed: "Votre compte a été supprimé. Nous espérons vous revoir bientôt."
+        signed_up: "Votre inscription est enregistrée."
+        updated: "Votre mise à jour a été prise en compte."
+        destroyed: "Votre compte a été supprimé. Nous espérons vous revoir bientôt."
     unlocks:
       send_instructions: "Vous allez recevoir un courriel avec des instructions pour déverrouiller votre compte."
       unlocked: "Votre compte est déverrouillé. Vous êtes maintenant connecté."
