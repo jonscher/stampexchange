@@ -54,9 +54,9 @@
 
     <%if current_user == @listing.user%>
     <%= link_to 'Modifier', edit_listing_path(@listing), class:"btn btn-link" %> |
-    <%= link_to 'supprimer', @listings, method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-link" %></li> |
+    <%= link_to 'Supprimer', @listings, method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-link" %></li> |
     <%end%>
 
-    <%= link_to 'retour', listings_path, class:"btn btn-link" %>
+    <%= link_to 'Retour', listings_path, class:"btn btn-link" %>
 
 </div>
