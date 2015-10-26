@@ -5,9 +5,9 @@
         <div class="row">
 
           <div class="col-md-6">
+            <div class="thumbnail">
 
             <div class="fotorama">
-              <div class="thumbnail">
 
               <%= image_tag @listing.image.url %>
               <%= image_tag @listing.image.url %>
@@ -22,7 +22,9 @@
           <div class="thumbnail">
 
             <h3>  <%= @listing.name %>    </h3>
+            <hr class="divider">
             <p><%= number_to_currency(@listing.price) %></p>
+            <hr class="divider">
             <p><%= @listing.description %></p>
           </div>
 
