@@ -10,7 +10,7 @@
           <div class="col-md-8">
             <div class="thumbnail">
 
-            <div class="fotorama" data-nav="thumbs" width="144" height="40" data-allowfullscreen="true" data-loop="true" data-arrows="true">
+            <div class="fotorama" data-nav="thumbs" width="144" height="60" data-allowfullscreen="true" data-loop="true" data-arrows="true">
               <%= image_tag @listing.image.url %>
               <%= image_tag @listing.image.url %>
 
@@ -26,7 +26,7 @@
 
             <h3>  <%= @listing.name %>    </h3>
             <hr class="divider">
-            <p><%= "mis en ligne le #{number_to_currency(@listing.price)}" %></p>
+            <p><%= number_to_currency(@listing.price) %></p>
 
           </div>
             </div>
@@ -37,7 +37,7 @@
 
       <div class="row">
         <div class="col-md-8">
-          <%=Mise en @listing.created_at%>
+          <%= "Mis en ligne le #{@listing.created_at}"%>
           <h2>Description :</h2>
           <p><%= @listing.description %></p>
 
