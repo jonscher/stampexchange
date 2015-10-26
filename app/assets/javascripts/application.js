@@ -10,10 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //= require jquery_ujs
+//= require fotorama.js
 //= require bootstrap
 //= require bootstrap/modal
 //= require bootstrap/alert
 //= require bootstrap/dropdown
-//= require fotorama.js
-
 // = require_tree .
