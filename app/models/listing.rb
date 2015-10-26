@@ -10,7 +10,7 @@ else
 end
 
   validates_attachment_size :image, :less_than => 2.megabytes
-  validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+  validates_attachment_content_type :image, styles: {medium: "200x", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
   validates :name, :price, :description, :image, presence: true
   validates :price, numericality: {greater_than:0}
   belongs_to :user
