@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2328334744">
+  <component name="DataSourceManagerImpl" format="xml" hash="4224121321">
     <data-source source="LOCAL" name="Rails untitled4: development" uuid="8d9b6384-93b9-4b82-b9f4-015a8280cf11">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -12,6 +12,20 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/project_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails untitled4: production" uuid="0a16cd95-1d69-4f13-aede-b799e38be5a9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:project_production</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails untitled4: cucumber" uuid="9b7db31d-5264-4116-8e60-be19c6e9ea3e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/project_test</jdbc-url>
       <libraries />
     </data-source>

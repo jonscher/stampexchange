@@ -93,4 +93,10 @@
       <primary-key columns="id"/>
     </table>
   </data-source>
+  <data-source name="Rails untitled4: production" uuid="0a16cd95-1d69-4f13-aede-b799e38be5a9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails untitled4: cucumber" uuid="9b7db31d-5264-4116-8e60-be19c6e9ea3e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

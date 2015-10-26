@@ -3,5 +3,13 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Rails untitled4: development" uuid="8d9b6384-93b9-4b82-b9f4-015a8280cf11" />
     <data-source name="Rails untitled4: test" uuid="52e628bb-4ffb-4d1d-95db-2f74cb11f7b6" />
+    <data-source name="Rails untitled4: production" uuid="0a16cd95-1d69-4f13-aede-b799e38be5a9">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails untitled4: cucumber" uuid="9b7db31d-5264-4116-8e60-be19c6e9ea3e">
+      <first-sync>true</first-sync>
+      <user-name>exemple</user-name>
+      <user-password>dfcfdfd2dfcfdfc7dfdadfc6dfcf</user-password>
+    </data-source>
   </component>
 </project>
