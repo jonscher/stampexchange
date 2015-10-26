@@ -14,4 +14,6 @@
 //= require bootstrap/modal
 //= require bootstrap/alert
 //= require bootstrap/dropdown
+//= require fotorama.js
+
 // = require_tree .
