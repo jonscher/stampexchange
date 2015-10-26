@@ -1,10 +1,9 @@
 <div class="container">
 
-    <div class="center">
       <div class="row">
 
         <h5>  <%= @listing.name %>    </h5>
-
+        <br>
       </div>
         <div class="row">
 
@@ -21,6 +20,7 @@
           </div>
 
           <div class="col-md-4">
+            <div class="center">
 
           <div class="thumbnail">
 
@@ -29,20 +29,22 @@
             <p><%= number_to_currency(@listing.price) %></p>
 
           </div>
+            </div>
+        </div>
+        </div>
 
-        </div>
-        </div>
+      <div class="thumbnail">
 
       <div class="row">
         <div class="col-md-8">
+
           <h1>Description :</h1>
           <p><%= @listing.description %></p>
 
         </div>
-
-        <div class="col-md-4">.col-md-4</div>
       </div>
-    </div>
+
+      </div>
 
     <%if current_user == @listing.user%>
     <%= link_to 'Modifier', edit_listing_path(@listing), class:"btn btn-link" %> |
