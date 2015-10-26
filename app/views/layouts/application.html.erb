@@ -33,13 +33,11 @@
 
 
     <%end%>
-    <div class="margin">
       <%= yield %>
 
     <%= debug(params) if Rails.env.development? %>
     <li> <%= render '/layouts/modal' %></li>
     </div>
-</div>
 
     <%= render '/layouts/footer'%>
 
