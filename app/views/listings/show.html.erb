@@ -37,7 +37,8 @@
 
       <div class="row">
         <div class="col-md-8">
-          <%= "Mis en ligne le #{@listing.created_at}"%>
+          <%= "Mis en ligne le #{@listing.created_at.date}"%>
+          <hr class="divider">
           <h2>Description :</h2>
           <p><%= @listing.description %></p>
 
