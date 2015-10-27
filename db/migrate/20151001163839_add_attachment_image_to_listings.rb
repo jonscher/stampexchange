@@ -1,9 +1,8 @@
 class AddAttachmentImageToListings < ActiveRecord::Migration
   def self.up
     change_table :listings do |t|
-      t.attachment :image1
-      t.attachment :image2
-      t.attachment :image3
+      t.attachment :image
+  
     end
   end
 
