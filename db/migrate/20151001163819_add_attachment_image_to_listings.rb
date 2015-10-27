@@ -9,6 +9,5 @@ class AddAttachmentImageToListings < ActiveRecord::Migration
 
   def self.down
     remove_attachment :listings, :image
-
   end
 end
