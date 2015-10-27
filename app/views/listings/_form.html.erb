@@ -43,16 +43,13 @@
         <%= f.label :image3, "Image 3" %><br>
         <%= f.file_field :image3 , class: "form-control"%>
 
-        <%= f.label :image, "Image" %><br>
-        <%= f.file_field :image , class: "form-control"%>
 
       </div>
     </div>
 
     <div class="form-group">
       <%= f.label :certificat, "Certificat d'authenticité (obligatoire pour un prix supérieur à 100 euros)" %><br>
-      <%= f.file_field :certificat , class: "form-control"%>
-    </div>
+      <%= f.file_field :image , class: "form-control"%>    </div>
 
     <div class="actions">
         <%= f.submit "Publier mon article", class: "btn btn-primary" %>
