@@ -38,6 +38,7 @@ end
 validates :name, :price, :description, :image1, presence: true
   validates :price, numericality: {greater_than:0}
 
+
   belongs_to :user
 
 end
