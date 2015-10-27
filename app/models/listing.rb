@@ -27,12 +27,10 @@ end
   validates_attachment_size :image1, :less_than => 2.megabytes
   validates_attachment_size :image2, :less_than => 2.megabytes
   validates_attachment_size :image3, :less_than => 2.megabytes
-  validates_attachment_size :certificat, :less_than => 2.megabytes
 
   validates_attachment_content_type :image1, styles: {medium: "300x300", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
   validates_attachment_content_type :image2, styles: {medium: "300x300", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
   validates_attachment_content_type :image3, styles: {medium: "300x300", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
-  validates_attachment_content_type :certificat, styles: {medium: "300x300", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
 
 validates :name, :price, :description, :image1, presence: true
