@@ -35,7 +35,7 @@ end
   validates_attachment_content_type :image3, styles: {medium: "300x300", thumb: "100x100"}, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
 
-validates :name, :price, :description, :image1, presence: true
+validates :name, :price, :description, :image,:image1,:image2,:image3, presence: true
   validates :price, numericality: {greater_than:0}
 
 
