@@ -13,11 +13,11 @@
   <% end %>
 
   <div class="form-group">
-    <%= f.label :name, "Nom"%><br>
+    <%= f.label :name, "Titre"%><br>
     <%= f.text_field :name , class: "form-control"%>
   </div>
   <div class="form-group">
-    <%= f.label :description %><br>
+    <%= f.label :description, "Description" %><br>
     <%= f.text_area :description , size: "30x10", class: "form-control"%>
   </div>
 
@@ -25,19 +25,35 @@
     <%= f.label :price, "Prix" %><br>
     <div class="input-group input-group-lg">
 
-    <%= f.number_field :price, {step: '1', class: "form-control"} %><span class="input-group-addon">€</span>
+        <%= f.number_field :price, {step: '1', class: "form-control"} %><span class="input-group-addon">€</span>
 
     </div>
   </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Images (Taille inférieure à 2MB)</div>
+      <div class="panel-body">
+
+        <%= f.label :image1, "Image 1" %><br>
+        <%= f.file_field :image1 , class: "form-control"%>
+
+        <%= f.label :image1, "Image 2" %><br>
+        <%= f.file_field :image1 , class: "form-control"%>
+
+        <%= f.label :image1, "Image 3" %><br>
+        <%= f.file_field :image1 , class: "form-control"%>
+
+      </div>
+    </div>
 
     <div class="form-group">
-      <%= f.label :image %><br>
-      <%= f.file_field :image , class: "form-control"%>
+      <%= f.label :certificat, "Certificat d'authenticité (obligatoire pour un prix supérieur à 100 euros)" %><br>
+      <%= f.file_field :certificat , class: "form-control"%>
     </div>
 
-
-  <div class="actions">
-    <%= f.submit "Publier mon article", class: "btn btn-primary" %>
-  </div>
+    <div class="actions">
+        <%= f.submit "Publier mon article", class: "btn btn-primary" %>
+    </div>
+    <br>
 <% end %>
 

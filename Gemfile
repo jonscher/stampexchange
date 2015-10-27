@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'devise'
-gem "paperclip", "~> 3.5.3"
+gem "paperclip"
 gem "jquery-turbolinks"
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
