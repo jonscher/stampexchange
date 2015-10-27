@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/listings/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.3076923">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="19" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/listings_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
+              <caret line="85" column="94" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -105,21 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listings/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2225131">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="43" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listing.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listing.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/listing.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state vertical-scroll-proportion="-0.17857143">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -219,10 +219,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20151001163839_add_attachment_image_to_listings.rb" />
         <option value="$PROJECT_DIR$/app/views/listings/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20151001163819_add_attachment_image_to_listings.rb" />
-        <option value="$PROJECT_DIR$/app/models/listing.rb" />
+        <option value="$PROJECT_DIR$/app/views/listings/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/listings_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/listings/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listings/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/listing.rb" />
       </list>
     </option>
   </component>
@@ -745,7 +745,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38714734" sideWeight="0.65960664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28214827" sideWeight="0.5081585" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31661442" sideWeight="0.3192133" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21003135" sideWeight="0.3192133" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1150,14 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/listing.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1174,10 +1166,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listings/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/listings_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
+          <caret line="85" column="94" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="94" />
           <folding />
         </state>
       </provider>
@@ -1185,15 +1185,15 @@
     <entry file="file://$PROJECT_DIR$/app/views/listings/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="19" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listings/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/listing.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2225131">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.17857143">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
