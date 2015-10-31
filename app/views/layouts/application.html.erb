@@ -38,9 +38,11 @@
     <li> <%= render '/layouts/modal' %></li>
     </div>
 
+<a href="#" onclick="$(this).next().toggle(); $(this).text() == 'Show' ? $(this).text('Hide') : $(this).text('Show'); return false;">Show</a>
+<span style="display: none;">0140019778</span>
 
 
-    <%= render '/layouts/footer'%>
+<%= render '/layouts/footer'%>
 
 </body>
 </html>

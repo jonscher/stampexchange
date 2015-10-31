@@ -4,12 +4,17 @@ gem 'rails', '4.2.0'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'devise'
 gem "paperclip"
+gem 'mailboxer'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 gem "jquery-turbolinks"
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem "paperclip-dropbox", ">= 1.1.7"
+gem 'gravatar_image_tag'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'

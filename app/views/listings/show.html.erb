@@ -34,6 +34,8 @@
             <h3>   <%= "Vendu par #{@listing.user.name}" %></h3>
             <hr class="divider">
             <p><%= number_to_currency(@listing.price) %></p>
+            <hr class="divider">
+            <p><%= link_to 'Contacter le vendeur', new_message_path, class: 'btn btn-lg btn-primary' %></p>
 
           </div>
             </div>

@@ -11,6 +11,7 @@
 // about supported directives.
 //= require jquery_ujs
 //= require fotorama.js
+//= require listing.js
 //= require bootstrap
 //= require bootstrap/modal
 //= require bootstrap/alert
